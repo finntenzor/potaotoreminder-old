@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="@string/main_position"
+		android:id="@+id/studyTextViewPosition"
+		android:textSize="20sp"
+		android:ellipsize="start"/>
+
+	<ProgressBar
+		style="?android:attr/progressBarStyleHorizontal"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:id="@+id/studyProgressBar"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:text="Large Text"
+		android:gravity="center"
+		android:layout_margin="10dp"
+		android:id="@+id/studyTextViewTitle"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Text"
+		android:layout_weight="1.0"
+		android:layout_margin="10dp"
+		android:layout_marginTop="0dp"
+		android:id="@+id/studyTextViewContext"
+		android:textSize="20sp"/>
+
+	<ListView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:visibility="gone"
+		android:layout_weight="1.0"
+		android:id="@+id/studyListViewContext"
+		android:layout_marginBottom="10dp"/>
+
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:src="@drawable/ic_entry_image"
+		android:layout_weight="1.0"
+		android:layout_marginBottom="10dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:id="@+id/studyImageViewContext"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_margin="10dp"
+		android:layout_marginTop="0dp">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="不记得"
+			android:id="@+id/studyButtonForgot"
+			android:layout_weight="1.0"
+			android:background="@drawable/bt_selecter"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="记不清"
+			android:id="@+id/studyButtonLow"
+			android:layout_weight="1.0"
+			android:background="@drawable/bt_selecter"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="记得"
+			android:id="@+id/studyButtonRemember"
+			android:layout_weight="1.0"
+			android:background="@drawable/bt_selecter"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="确定"
+			android:layout_weight="1.0"
+			android:background="@drawable/bt_selecter"
+			android:id="@+id/studyButtonConfirm"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

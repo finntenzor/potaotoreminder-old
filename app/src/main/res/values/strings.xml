@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">学习使我快乐</string>
+    <string name="start_hello">欢迎使用</string>
+    <string name="title_activity_main">学习使我快乐</string>
+    <string name="title_activity_set">学习使我快乐 - 设置</string>
+	<string name="title_activity_new">学习使我快乐 - 新建</string>
+	<string name="title_activity_study">学习使我快乐 - 学习中</string>
+	<string name="title_activity_loading">学习使我快乐</string>
+    <string name="title_activity_edit">学习使我快乐 - 编辑</string>
+	<string name="title_activity_move">学习使我快乐 - 移动</string>
+	<string name="main_study">开始学习</string>
+    <string name="main_export">导出</string>
+    <string name="main_position">学习></string>
+    <string name="hello_world">Hello world!</string>
+	<string name="new_title">标题</string>
+	<string name="new_hint">提示语</string>
+	<string name="new_point">知识点内容</string>
+	<string name="new_capture">相机</string>
+	<string name="new_picture">图库</string>
+	<string name="new_image">图片</string>
+	<string name="edit_level">熟悉度</string>
+	<string name="edit_node_hint">简介</string>
+	<string name="edit_node_point">介绍</string>
+	<string name="edit_list_point">内容</string>
+	<string name="welcome_title">学习使我快乐</string>
+	<string name="welcome_tips_1">理解以后记忆效率成倍提高哦</string>
+	
+</resources>

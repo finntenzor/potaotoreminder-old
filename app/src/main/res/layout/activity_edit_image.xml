@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="@string/main_position"
+		android:id="@+id/editTextViewPosition"
+		android:textSize="20sp"
+		android:ellipsize="start"/>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_margin="10dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/new_title"
+			android:textSize="20sp"/>
+
+		<EditText
+			android:id="@+id/editEditTextTitle"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:singleLine="true"
+			android:hint="请输入标题"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/new_hint"
+			android:layout_marginTop="10dp"
+			android:textSize="20sp"/>
+
+		<EditText
+			android:id="@+id/editEditTextHint"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:singleLine="true"
+			android:hint="请输入提示语"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/new_point"
+			android:layout_marginTop="10dp"
+			android:textSize="20sp"/>
+
+		<ImageView
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:src="@drawable/ic_entry_image"
+			android:layout_weight="1.0"
+			android:id="@+id/editImageViewImage"
+			android:layout_marginBottom="10dp"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="@string/new_capture"
+				android:background="@drawable/bt_selecter"
+				android:id="@+id/editButtonCapture"
+				android:layout_weight="1.0"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="@string/new_picture"
+				android:background="@drawable/bt_selecter"
+				android:id="@+id/editButtonPicture"
+				android:layout_weight="1.0"
+				android:layout_marginLeft="10dp"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/edit_level"
+			android:layout_marginTop="10dp"
+			android:textSize="20sp"/>
+
+		<EditText
+			android:id="@+id/editEditTextLevel"
+			android:layout_height="wrap_content"
+			android:inputType="numberDecimal"
+			android:layout_width="match_parent"
+			android:ems="10"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
